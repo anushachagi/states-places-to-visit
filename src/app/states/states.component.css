@@ -1,0 +1,27 @@
+.states {
+    border: 1px;
+    border-color: black;
+}
+
+.page-menu ul li em {
+    color: #fd1a55;
+    font-size: 70%;
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.page-menu {
+    padding: 0 0 55px;
+    font-family: 'latobold';
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 100%;
+    color: #4d4040;
+    margin: 0 0 0 22px;
+    overflow: hidden;
+    float: left;
+}
+
+ul {
+    list-style: none;
+}

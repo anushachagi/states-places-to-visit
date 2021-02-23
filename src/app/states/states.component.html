@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 style="text-align: center;">Travel India</h1>
+        </div>
+    </div>
+</div>
+<div class="container page clearfix">
+    <div class="page-menu">
+        <ul>
+          <li *ngFor = "let state of displayStates">
+            <h3><a href="javascript:void(0)" [routerLink]="['/interesting-facts']" 
+                    [queryParams]="{stateId: state.id}">{{ state.name }} <em>({{state.capital}})</em>
+                    <span class="strong" style="margin-left: 10px;"><fa-icon [icon]="faLink"></fa-icon></span>
+                </a>
+            </h3>
+          </li>
+        </ul>
+    </div>
+</div>
