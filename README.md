@@ -1,27 +1,26 @@
-# ExathoughtAssignment
+# States places to visit 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+Display States and for each state display places to visit
 
-## Development server
+## Pre-requisites:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* NodeJs
+* Yarn
 
-## Code scaffolding
+## Local Setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Run `yarn` to install dependencies
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build
+## API Used:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Used mock API to fetch states and places in state.
 
-## Running unit tests
+* Fetch States: `GET https://603073d5a1e9d20017af1b9b.mockapi.io/states`
+* Fetch State Information: `GET https://603073d5a1e9d20017af1b9b.mockapi.io/states/{stateId}`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Application Screenshots
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Alt text](images/list-states.jpeg?raw=true "List States")
+![Alt text](images/top-ten-places-to-visit.jpeg?raw=true "Top 10 Places to visit")
+![Alt text](images/must-visit-places.jpeg?raw=true "Must Visit Places")
