@@ -21,6 +21,6 @@ Used mock API to fetch states and places in state.
 
 ## Application Screenshots
 
-![Alt text](images/list-states.jpeg?raw=true "List States")
-![Alt text](images/top-ten-places-to-visit.jpeg?raw=true "Top 10 Places to visit")
-![Alt text](images/must-visit-places.jpeg?raw=true "Must Visit Places")
+![Alt text](images/list-states.JPG?raw=true "List States")
+![Alt text](images/top-ten-places-to-visit.JPG?raw=true "Top 10 Places to visit")
+![Alt text](images/must-visit-places.JPG?raw=true "Must Visit Places")
