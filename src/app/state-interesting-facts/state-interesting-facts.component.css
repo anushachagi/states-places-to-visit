@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+}
+
+.page-menu {
+    font-family: 'latobold';
+    font-weight: normal;
+    font-size: 105%;
+    line-height: 100%;
+    color: #3a3a3a;
+    overflow: hidden;
+    float: left;
+}
+
+.page-menu a {
+    font-family: 'latobold';
+    font-weight: normal;
+    padding: 0 0 10px 0;
+    color: #3a3a3a;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}

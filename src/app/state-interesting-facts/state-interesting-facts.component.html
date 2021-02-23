@@ -1,0 +1,21 @@
+<div class="container" *ngIf = "stateInfo">
+    <div class="row">
+        <div class="col-12">
+            <h1 style="text-align: center;">Top ten things to do in {{stateInfo.name}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <div class="page-menu">
+                <ul>
+                  <li *ngFor = "let info of stateInfo.places">
+                    <a href="javascript:void(0)" (click) = "selectedPlace = info"> {{ info.name }}</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-5">
+            <app-place-info *ngIf = "selectedPlace" [placeDetail] = "selectedPlace"></app-place-info>
+        </div>
+    </div>
+</div>
